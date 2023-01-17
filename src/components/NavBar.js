@@ -21,12 +21,12 @@ export function NavBar(){
         <div className={classes.root}>
           <AppBar position="static">
             <Toolbar>
-              <Typography variant="h6" color='secondary' className={classes.title}>
-                Nehuen Emiliano Goni
+              <Typography variant="h6" color='text' className={classes.title}>
+                Nehuen Emiliano Goñi
               </Typography>
-              <Button color="secondary">Acerca de mi</Button>
-              <Button color="secondary">Estudios</Button>
-              <Button color="secondary">Contacto</Button>
+              <Button color="text">Acerca de mi</Button>
+              <Button color="text">Estudios</Button>
+              <Button color="text">Contacto</Button>
             </Toolbar>
           </AppBar>
         </div>

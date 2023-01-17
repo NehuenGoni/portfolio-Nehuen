@@ -30,10 +30,11 @@ const myContent = [{
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#3b3737',
+      main: '#b70b0b',
     },
     secondary:{
-      main: '#433a3a'
+      main: '#433a3a',
+      light: '#5A4D4D'
     },
     text:{
       main: '#FFFFFF'

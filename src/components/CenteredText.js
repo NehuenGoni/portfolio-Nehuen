@@ -1,12 +1,21 @@
 import { Grid, Typography } from "@mui/material"
 import React from 'react';
+import { makeStyles } from '@mui/styles';
+
+const useStyles = makeStyles((theme) => ({
+    container:{
+        backgroundColor: theme.palette.secondary.main,
+        padding: ' 4vw 12vw '
+    }
+  }))
 
 export function CenteredText(){
+    const classes = useStyles()
+
     return(
         <Grid   
-            padding='4vw 12vw' 
-//          backgroundColor='#C0C0C0' 
-            container direction="column" 
+            className={classes.container}
+            container direction="column"
             justifyContent="space-arround" 
             alignItems="center"
             >
