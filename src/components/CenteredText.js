@@ -4,7 +4,7 @@ import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles((theme) => ({
     container:{
-        backgroundColor: theme.palette.secondary.main,
+        backgroundColor: theme.palette.background.paper,
         padding: ' 4vw 12vw '
     }
   }))
@@ -20,17 +20,17 @@ export function CenteredText(){
             alignItems="center"
             >
             <Grid item xs={3}>
-                <Typography variant='body1' align='center' gutterBottom='true'>
+                <Typography variant='body1' align='center' gutterBottom='true' color='text.primary'>
                     Aca es donde tengo que poner un texto de presentacion 
                 </Typography>
             </Grid>
             <Grid item xs={3}>
-                <Typography variant='body1' align='center' gutterBottom='true'>
+                <Typography variant='body1' align='center' gutterBottom='true' color='text.primary'>
                     <b>Algo distinto. quizas puedo poner lo mas importante</b>
                 </Typography>
             </Grid>
             <Grid item xs={3}>
-                <Typography variant='body1' align='center' gutterBottom='true'>
+                <Typography variant='body1' align='center' gutterBottom='true' color='text.primary'>
                     Aca es donde tengo que poner un texto de presentacion 
                 </Typography>
             </Grid>

@@ -4,7 +4,7 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        backgroundColor: theme.palette.secondary.light,
+        backgroundColor: theme.palette.background.paper,
         padding: '4vw 12vw'
     }
 }))
@@ -37,17 +37,17 @@ const TextToTheRight = (props) => {
             <Grid item xs={6}>
                 <Grid container direction='column' alignItems="center" spacing={3}>
                     <Grid>
-                        <Typography variant='h4'align="center">
+                        <Typography variant='h4'align="center" color='text.primary'>
                             {props.content.title}
                         </Typography>
                     </Grid>
                     <Grid item xs>
-                        <Typography variant='body1'>
+                        <Typography variant='body1' color='text.primary'>
                             {props.content.subtitle}
                         </Typography>
                     </Grid>
                     <Grid item xs>
-                        <Typography variant='body1'>
+                        <Typography variant='body1' color='text.primary'>
                             {props.content.descriptions.map((description) => (
                                 <Description description={description}/>
                             ))}
@@ -72,17 +72,17 @@ const TextToTheLeft = (props) => {
             <Grid item xs={6}>
                 <Grid container direction='column' alignItems="center" spacing={3}>
                     <Grid>
-                        <Typography variant='h4'align="center">
+                        <Typography variant='h4'align="center" color='text.primary'>
                             {props.content.title}
                         </Typography>
                     </Grid>
                     <Grid item xs>
-                        <Typography variant='body1'>
+                        <Typography variant='body1' color='text.primary'>
                             {props.content.subtitle}
                         </Typography>
                     </Grid>
                     <Grid item xs>
-                        <Typography variant='body1'>
+                        <Typography variant='body1' color='text.primary'>
                             {props.content.descriptions.map((description) => (
                                 <Description description={description}/>
                             ))}
